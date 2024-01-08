@@ -9,7 +9,7 @@ sudo apt install intel-gpu-tools
 ```
 sudo intel_gpu_top
 ```
-Von Nvidia-Chip auf Intel wechseln:
+Von Nvidia-Chip auf Intel wechseln (Notebooks mit Hybrid-Grafik):
 ```
 sudo prime-select intel
 ```
