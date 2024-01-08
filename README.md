@@ -27,6 +27,9 @@ Der Wert hinter „GPU usage“ steigt, sobald Sie ein Video abspielen.
 
 # VA-API für Nvidia nachrüsten
 Ubuntu 22.04 oder Linux Mint 21, proprietäre Nvidia-Treiber in der Version 470, 500 oder höher.
+
+**Wichtig für Ubuntu-Nutzer:** VA-API funktioniert nur mit einem Firefox, der als Systempaket installiert ist, nicht jedoch mit der bei Ubuntu standardmäßigen Snap-App von Firefox. Ubuntu-Nutzer müssen daher Firefox als Systempaket einrichten. Eine Anleitung finden Sie auf Anleitung auf https://github.com/Myria-de/deb_statt_snap.
+
 ```
 sudo apt install build-essential git meson gstreamer1.0-plugins-bad libffmpeg-nvenc-dev libva-dev libegl-dev cmake pkg-config libdrm-dev libgstreamer-plugins-bad1.0-dev
 ```
